@@ -1,0 +1,175 @@
+@charset "UTF-8"; 
+
+    *{margin:0; padding: 0;}
+    ul{list-style: none;}
+    img{border: 0; vertical-align: 0;}
+    a{text-decoration: none; color: #000;}
+
+    .clearFix:after{
+    content:"";
+    display: block;
+    clear:both;
+    }
+    
+    body{
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    #header{
+        width: 1904px; height: 100px;
+        box-sizing: border-box;
+        padding: 80px 100px; margin:0 auto;
+        border-bottom: 1px solid rgb(216, 216, 216);
+    }
+    #header .header_logo{float: left;}
+    #header .gnb{
+        float: left; 
+        margin-left: 280px;
+        position: absolute;
+    }
+    #header .gnb>li{
+        float: left;
+        width: 150px; text-align: center;
+    }
+    #header .gnb>li .sub{display: none;}
+    #header .gnb>li .sub>li{
+        text-align: left;
+    }
+    #header .gnb>li:hover .sub{
+        display: block;
+        width: 130px; 
+        margin-top: 15px; padding-left: 15px;
+        padding-top: 20px; padding-bottom: 20px;
+        background-color: #37D243;
+        border-radius: 18px;
+        line-height: 30px;
+    }
+    #header .gnb>li>a:hover{
+        color:#37D243;
+    }
+    #header .gnb>li>a{
+        font-size: 15pt;
+        font-weight: 600;
+    }
+    #header .gnb .sub>li a{
+        color:#fff;
+        font-size: 13pt;
+    }
+    #header .gnb .sub>li a:hover{
+        border-bottom: 1px solid #fff;
+    }
+    #header .header_etc{
+        float: right; 
+        font-size: 12pt;
+        font-weight: 600;
+        text-align: center;
+        width: 250px;
+    }
+    #header .header_etc>li{
+        float: left;
+        width: 50px;
+    }
+    #header .header_etc .language{
+        display: none;
+    }
+    #header .header_etc>li:first-child:active .language{
+        display: block;
+    }
+    #header .header_etc .language{
+        background-color: #000;
+        color: #fff;
+        width: 50px;
+        padding-top: 20px;padding-bottom: 20px;
+        border-radius: 15px;
+    }
+    
+    #section .sec_1{
+        width: 1904px;margin: 0 auto;text-align: 
+    }
+    #section .sec_1 .sec_1_con{
+        width: 1280px;
+        margin: 0 auto;
+        padding-top: 80px;
+    }
+    #section .sec_1 .sec_1_con .main_logo{float: left; margin-right: 230px;}
+    #section .sec_1 .sec_1_con .main_illu{float: right;}
+    #section .sec_1 .sec_1_txt .main_txt{
+        float: left;
+        font-size: 12pt;font-weight: 600;
+    }
+    #section .sec_1 .sec_1_txt .main_txt a{ 
+        color:#929292
+    }
+    #section .sec_1 .sec_1_txt .right_ikon{
+        float: left;
+        background-color: #37D243;
+        border-radius: 50%;
+        width: 20px; height: 20px;
+        text-align: center;
+        margin-left: 5px; margin-top: 5px;
+        font-size: 10pt; color: #fff;
+    }
+    #section .sec_1 .sec_1_txt:hover .right_ikon{
+        background-color: #8400ff;
+    }
+    #section .sec_1 .sec_1_txt:hover .main_txt a{
+        border-bottom: 1px solid black;
+    }
+    #section .sec_1 .sec_1_banner{
+        width: 1904px;
+        margin-top: 250px;
+    }
+    #section .sec_1 .sec_1_banner li{
+        float: left;
+        border-radius: 20px; overflow: hidden;
+    }
+    #section .sec_1 .sec_1_banner li img{
+        width: 685px; 
+    }
+    #section .sec_1 .sec_1_banner li:first-child {
+        position: relative; left: -130px;
+    }
+    #section .sec_1 .sec_1_banner li:nth-child(2){
+        position: relative; left: -80px
+    }
+    #section .sec_1 .sec_1_banner li:last-child{
+        position: absolute; right: -120px;
+    }
+
+    #section .button{
+        float: left;
+        margin-top: 30px; margin-left: 930px;
+    }
+    #section .button li{
+        background-color: #c0c0c0;
+        border-radius: 50%;
+        width: 13px; height: 13px;
+        float: left;
+        margin-left: 8px;
+        text-align: center;
+    }
+    #section .button li:nth-child(2){
+        background-color: #37D243;
+    }
+
+    #section .sec_2{
+        width: 1280px; margin: 0 auto;
+    }
+    #section .sec_2_title{
+        width: 1280px; float: left;
+        margin-top: 100px;
+    }
+    #section .sec_2_title h1{
+        float: left; margin-left: 640px;
+    }
+    #section .sec_2_title a{
+        float: right;
+        padding-top: 20px;
+        color: #929292;
+        font-weight: 600;
+    }
+
+
